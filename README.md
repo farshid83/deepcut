@@ -1,14 +1,6 @@
 # Deep(er)Cut: Multi Person Pose Estimation
 
 This short documentation describes steps necessary to compile and run the code that implements [DeepCut](http://arxiv.org/abs/1511.06645) and [DeeperCut](http://arxiv.org/abs/1605.03170) papers:	
-
-**Leonid Pishchulin, Eldar Insafutdinov, Siyu Tang, Bjoern Andres, Mykhaylo Andriluka, Peter Gehler, and Bernt Schiele			  
-DeepCut: Joint Subset Partition and Labeling for Multi Person Pose Estimation	       
-In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2016**	       
-
-**Eldar Insafutdinov, Leonid Pishchulin, Bjoern Andres, Mykhaylo Andriluka, and Bernt Schiele   
-DeeperCut:  A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model   
-In _European Conference on Computer Vision (ECCV)_, 2016**	
 For more information visit http://pose.mpi-inf.mpg.de
 
 ## Prerequisites
@@ -62,26 +54,4 @@ $ cd <root_dir>
 $ ./start_matlab.sh
 % in MATLAB
 >> demo_multiperson
-```
-
-## CNN-based part detectors
-
-Access [DeeperCut Part Detectors](https://github.com/eldar/deepcut-cnn) to download stand-alone part detectors that produce dense scoremaps.
-
-## Citing
-```
-@inproceedings{insafutdinov2016deepercut,
-	author = {Eldar Insafutdinov and Leonid Pishchulin and Bjoern Andres and Mykhaylo Andriluka and Bernt Schieke},
-	title = {DeeperCut: A Deeper, Stronger, and Faster Multi-Person Pose Estimation Model},
-	booktitle = {European Conference on Computer Vision (ECCV)},
-	year = {2016},
-	url = {http://arxiv.org/abs/1605.03170}
-    }
-@inproceedings{pishchulin16cvpr,
-	author = {Leonid Pishchulin and Eldar Insafutdinov and Siyu Tang and Bjoern Andres and Mykhaylo Andriluka and Peter Gehler and Bernt Schiele},
-	title = {DeepCut: Joint Subset Partition and Labeling for Multi Person Pose Estimation},
-	booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-	year = {2016},
-	url = {http://arxiv.org/abs/1511.06645}
-}
 ```
