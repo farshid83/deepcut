@@ -42,7 +42,7 @@ For more information visit http://pose.mpi-inf.mpg.de
 4. Build solver	
    ```
    $ cd external/solver
-   $ cmake . -DGUROBI_ROOT_DIR=/path/to/gurobi603/linux64 -DGUROBI_VERSION=60
+   $ cmake . -DGUROBI_ROOT_DIR=/usr/global/gurobi/gurobi651/linux64 -DGUROBI_VERSION=65
    $ make solver-callback
    ```
 
