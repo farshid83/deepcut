@@ -23,7 +23,9 @@ For more information visit http://pose.mpi-inf.mpg.de
    ```
    $ cd external/caffe
    $ make -j 4 all matcaffe
-   ```
+   
+   $ easy_install-2.7 pip
+   
 
 3. Build `liblinear`, specify the path to the MATLAB installation	
    ```
