@@ -40,7 +40,8 @@ For more information visit http://pose.mpi-inf.mpg.de
    $ cd external/solver
    //$ mkdir build
    //$ cd build
-   $ cmake . -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=gcc -DGUROBI_ROOT_DIR=/usr/global/gurobi/gurobi651/linux64 -DGUROBI_VERSION=65
+   $ module load gcc/4.9.2 // which is compatible with gurobi 6.5.1
+   $ cmake . -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=c++ -DGUROBI_ROOT_DIR=/usr/global/gurobi/gurobi651/linux64 -DGUROBI_VERSION=65
    $ make solver-callback
    ```
 
