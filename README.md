@@ -32,7 +32,8 @@ For more information visit http://pose.mpi-inf.mpg.de
 3. Build `liblinear`, specify the path to the MATLAB installation	
    ```
    $ cd external/liblinear-1.94/matlab
-   $ CC=gcc CXX=g++ MATLABDIR=/usr/lib/matlab-8.6/ make
+   $ vi Makefile // CC=gcc CXX=g++ MATLABDIR=/usr/global/matlab/R2015a/ 
+   $ make
    ```
 
 4. Build solver	
